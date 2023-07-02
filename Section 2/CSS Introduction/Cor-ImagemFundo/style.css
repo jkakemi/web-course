@@ -1,0 +1,13 @@
+body {
+    /*background-color: rgb(189, 182, 134);*/
+    /*background-image: url();*/
+    background: rgb(104, 92, 53) url('imagens/yoshi.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.fundo {
+    background-color: rgb(221, 206, 140);
+    color: white;
+}

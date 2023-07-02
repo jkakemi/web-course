@@ -1,0 +1,43 @@
+.formatacao {
+    color: blue;
+    /* Tem código de cor em hexadecimal */
+    font-size: 30px;
+    background-color: red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.texto {
+    /* px->tamanho fixo 16px é o padrão
+    %->tamanho relativo 100% é o padrão
+    em->tamanho relativo ao container pai
+    */
+    font-size: 2em;
+}
+
+.texto2 {
+    font-size: 1em;
+}
+/* Preferência sempre do filho e depois container pai 
+se aplicada diretamente */
+
+.negrito {
+    /* normal, bold, 100 até 900 */
+    font-weight: bold;
+}
+
+.italico {
+    font-style: italic;
+}
+
+.decoration {
+    /* underline, overline, line-through */
+    text-decoration: underline;
+}
+
+.geral {
+    font: bold 40px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+div {
+    font-size: 30px;
+}
