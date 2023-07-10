@@ -1,0 +1,28 @@
+/* Se um seletor for mais específico que o outro
+a regra mais específica será aplicada
+(terá precedência sobre regras mais gerais) */
+
+* {
+    color: red;
+}
+
+
+/* Sempre o que está abaixo tem prioridade */
+
+p{
+    color: red;
+}
+
+p{
+    color: blue;
+}
+
+/* !important tira essa prioridade e o elemento acima tem prioridade */
+
+h1{
+    color: green !important;
+}
+
+h1 {
+    color: aqua;
+}
