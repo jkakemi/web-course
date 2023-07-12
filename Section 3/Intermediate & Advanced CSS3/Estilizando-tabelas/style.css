@@ -4,7 +4,7 @@ body{
 
 table{
     width: 600px;
-    border-collapse: separate; /* collapse */
+    border-collapse: separate; /* ou collapse */
 }
 
 th, td{
