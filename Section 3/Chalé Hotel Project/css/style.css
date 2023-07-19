@@ -102,3 +102,38 @@ a:hover.reserva{
     height: 66px;
     text-indent: -9000px;
 }
+
+/* Barra de navegação vertical */
+
+#menu{
+    margin-top: 15px;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+ul#navegacao{
+    float: left;
+}
+
+ul#navegacao a{
+    text-transform: uppercase;
+    font-size: 0.8em;
+    padding: 5px;
+    color: #6e672c;
+    line-height: 30px;
+}
+
+ul#navegacao a:hover{
+    background-color: #fdf6be;
+    border-radius: 5px;
+}
+
+.depoimento {
+    width: 226px;
+    height: 164px;
+    float: right;
+}
